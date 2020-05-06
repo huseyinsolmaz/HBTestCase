@@ -41,7 +41,9 @@ If You want to change browser you have to add command
 To RUN Test Cases
 
 TO Main Test Cases
+
     robot -d results --variable BROWSER:ff TestSuites/MainTestSuites.robot
     
 TO API Test Cases
+
     robot -d results --variable BROWSER:ff TestSuites/ApiTestSuites.robot
